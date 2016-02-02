@@ -6,10 +6,10 @@
 var location
 
 function detectNewPDF() {
+  document = getFilesByType(PDF)
 }
 
-// get the file name 
-// make filename = (filename)
+var filename = document
 
 function convertImageToPNG(filename) {
   
